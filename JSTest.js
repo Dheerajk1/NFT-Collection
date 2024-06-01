@@ -15,9 +15,9 @@ function mintNFT_values(Name, id, occupation, hobbie)   // creating a function, 
 
 function listNFTs() 
 {
-    for (let i = 0; i < NFTs.length; i++)              // creating a "loop" that will go through an "array" of NFTs
+    for (let i = 0; i < NFTs.length; i++)               // creating a "loop" that will go through an "array" of NFTs
     {    
-        console.log("\nID: \t\t\t" + (i + 1));         // printing the metadata.    
+        console.log("\nID: \t\t\t" + (i + 1));          // printing the metadata.    
         console.log("Name: \t\t\t" + NFTs[i].Name);
         console.log("id: \t\t\t" + NFTs[i].id);
         console.log("occupation: \t" + NFTs[i].occupation);
