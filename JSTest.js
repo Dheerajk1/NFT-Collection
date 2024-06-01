@@ -2,7 +2,7 @@ const NFTs = [];                                        // creating a variable t
 
 function mintNFT_values(Name, id, occupation, hobbie)   // creating a function, in which the object will be created 
 {
-    const nft =                                         // Creating an object inside the mintNFT function that will hold the metadata for our NFTs.
+    const nft =                                         // Creating an object inside the mintNFT_values function that will hold the metadata for our NFTs.
     {                                   
         "Name": Name,                                   // creating properties for our object.
         "id": id,
